@@ -1,0 +1,98 @@
+body{
+    padding: 0;
+    margin: 100px;
+    box-sizing: border-box;
+}
+
+#nav{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: border-radius: 41px 41px 41px 41px; -webkit-border-radius: 41px 41px 41px 41px; -moz-border-radius: 41px 41px 41px 41px; border: 16px solid #000000; 10px 10px 0px 0px rgba(0,0,0,0.71);-webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.71); -moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.71);
+    
+}
+
+menu{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#menu li{
+    display: inline;
+    margin: 25px;
+    padding: 50px 15px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 50;
+}
+
+#menu li a:hover{
+    color: darkgray;
+    text-decoration: underline;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+#h1{
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    text-align: center;
+    text-shadow: 3px 14px 2px rgba(218,87,87,0.23);
+}
+
+#p{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+}
+
+#footer{
+    clear: both;
+    background-color: black;
+    color: white;
+    text-decoration: wavy;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+#footer p{
+    padding-top: 45px;
+}
+
+#nav img{
+    width: 50px;
+    float: left;
+    padding-left: 20%;
+    padding-top: 0.5%;
+}
+
+#boton1{
+    color: black;
+    border-color: black;
+}
+
+#boton2{
+    color: black;
+    border-color: black;
+}
+
+#boton1,#boton2{
+    text-align: center;
+    background-color:white;
+    padding: 8px 10px;
+}
+

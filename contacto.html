@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASCOTAS</title>
+    <meta name="author" content="Judit del Río Hortelano">
+    <link rel="icon" type="image/jpg" href="img/favicon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.oogleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Anton&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="img/mascotas_head.png" alt="cabeceras mascotas">
+    </header>
+    <nav id="nav">
+        <ul id="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="quienes-somos.html">Quienes somos</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <div align="center">
+    <p>
+        <h1 id="h1">CONTÁCTENOS</h1>
+    </p>
+    <P><strong>+COTAS Toledo: </strong> Ronda de Toledo, 30. Telf: 999 999 999</P>
+    <p><strong>+COTAS Ciudad Real: </strong> Ronda de Calatrava, 51. Telf: 999 999 555</p>
+    <p><strong>+COTAS Cuenca: </strong> Calle Molinos, 25. Telf: 999 999 555</p>
+    </div>
+    <p>
+        <h1 id="h1">Formulario de Contacto</h1>
+    </p>
+    <div align="center">
+        <table>
+            <tr>
+                <td>
+                    <form autocomplete="on">
+                        <p>
+                            <label for="nombre">Nombre*</label>
+                            <input type="text" id="nombre" placeholder="Ingresa tu nombre" required minlength="3" maxlength="20" pattern="[a-Z]">
+                        </p>
+                        <p>
+                            <label for="apellido">Apellidos*</label>
+                            <input id="apellido" placeholder="Ingresa tus apellidos" required minlength="5" pattern="[a-Z]" size="50" maxlength="20">
+                        </p>
+                        <p>
+                            <label for="numero">Teléfono</label>
+                            <input type="text" id="numero" maxlength="9" size="20" pattern="[0-9]">
+                        </p>
+                        <p>
+                            <label for="email">email</label>
+                            <input type="email" id="email">
+                        </p>
+                        <p>
+                            <label for="mensaje">Escribe un mensaje</label><br>
+                            <textarea name="mensaje" id="mensaje" cols="70" rows="5" placeholder="máximo 120 caractares" maxlength="120"></textarea>
+                        </p>        
+                        <P align="center">
+                            <input type="submit" value="Enviar datos" id="boton1">
+                            <input type="reset" value="Borrar datos" id="boton2">
+                        </P>
+                    </p>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    
+    <footer id="footer">
+        <p>Web realizada por: Judit del Río. CopyRight©️ 2024</p>
+    </footer>
+    
+</body>
+</html>
